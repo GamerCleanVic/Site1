@@ -7,17 +7,16 @@
 <body>
 
 <h1 align="center">Página de vídeos 1</h1>
-<!-- <video id=pagina3 loop poster="https://raw.githubusercontent.com/GamerCleanVic/Site1/gh-pages/CodigosEclipse/TreinoPHP/Imagens/Arch%20Linux%20-%20Outubro%20de%202017.png" width="720" height="360" controls autoplay>
-  <source src="github.com/GamerCleanVic/Site1/blob/gh-pages/CodigosEclipse/TreinoPHP/Videos/tela.mp4" type="video/mp4">
-  <!--<source src="Site1/CodigosEclipse/TreinoPHP/Videos/tela.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video> -->
 
-<h2>Uzando Flash</h2>
-<video src="https://www.youtube.com/watch?v=4Ri8FX1acq4" controls>
-    <object data="flvplayer.swf" type="application/x-shockwave-flash">
-      <param value="flvplayer.swf" name="movie"/>
-    </object>
+<h2>Uzando Java Applet</h2>
+<video src="https://github.com/GamerCleanVic/Site1/blob/gh-pages/CodigosEclipse/TreinoPHP/Videos/tela.mp4" controls width="320" height="240">
+  <object type="application/x-java-applet"
+          width="320" height="240">
+     <param name="archive" value="cortado.jar">
+     <param name="code" value="com.fluendo.player.Cortado.class">
+     <param name="url" value="https://github.com/GamerCleanVic/Site1/blob/gh-pages/CodigosEclipse/TreinoPHP/Videos/tela.mp4">
+     <p>You need to install Java to play this file.</p>
+  </object>
 </video>
 
 <h2>Embed Video</h2>

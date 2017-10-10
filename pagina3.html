@@ -8,6 +8,7 @@
 
 <h1 align="center">Página de vídeos 1</h1>
 
+<!-- Uzando Java Applet -->
 <h2>Uzando Java Applet</h2>
 <video src="https://github.com/GamerCleanVic/Site1/blob/master/CodigosEclipse/TreinoPHP/Videos/tela.ogv" controls width="320" height="240">
   <object type="application/x-java-applet"
@@ -19,6 +20,7 @@
   </object>
 </video>
 
+<!-- Embed Vídeo -->
 <h2>Embed Video</h2>
 <iframe id=pagina3 width="560" height="315" src="https://www.youtube.com/embed/4Ri8FX1acq4" frameborder="0" allowfullscreen="0"></iframe>
 
@@ -27,6 +29,8 @@
 <form border="1" action="pagina3.html" method="get" name="formulario" id="formulario">
     <!-- Campos do Formulário
 botao btReset {width:100px; height:50px;} -->
+
+<!-- Usando label e radio -->
 <label for="Sexo">Sexo:</label><br />
 <input type=radio name=Sexo id=sexMasculino checked value="masc" selected/>Masculino<br />
 <input type=radio name=Sexo id=sexFeminino checked value="femi" />Feminino<br /> 
@@ -34,10 +38,9 @@ botao btReset {width:100px; height:50px;} -->
 <br />
 
 <br / br />
+<!-- Usando select e option -->
 <label for="estCivil"><font color="000000">Estado Civil:</font></label><br />
 <select name="estCivil" id="estCivil">
-<!--<label for="estCivil">Estado Civil:</label><br />
-Modelo do livro: <option value="solteiro">Solteiro</option> -->
 <option value="" selected>Escolha</option>
 <option value="solteiro">Solteiro</option>
 <option value="casado">Casado</option>
@@ -45,19 +48,24 @@ Modelo do livro: <option value="solteiro">Solteiro</option> -->
 <option value="viuvo">Viúvo</option>
 <option value="outro">Outro</option>
 </select>
+<!-- Usando Butão/button -->
 <input type="button" id="btButton" value="Botao" calss="botao" />
 <br /><br />
 
+<!-- Caixa de Texto/textarea -->
 <label for="texto">Texto:</label>
 <textarea name="texto" id=texto cols="80" rows="4">Digite o texto aqui:</textarea>
 <input type="reset" id="btReset" value="Limpar" calss="botao" /><br /><br />
 
+<!-- Inserindo Nome Completo -->
 <label for="nome">Nome Completo</label><br />
 <input type="text" name="nome" id="nome" size="80" maxlength="120" value="nome completo" /><br /><br />
-  
+
+<!-- Usando Senha/password -->
 <label for="senha">Senha:</label><br />
 <input type="password" name="senha" id="senha" size="10" maxlength="10" value="secreto" /><br /><br />
 
+<!-- Usando Checkbox -->
 <input type="checkbox" name="novidades" id="novidades" checked />
 <label for="novidades">Quero Receber as Novidades do Site</label><br /><br />
 
